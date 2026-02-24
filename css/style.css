@@ -416,7 +416,7 @@ html {
 
 /* БУРГЕР-МЕНЮ (БАЗОВЫЕ СТИЛИ) */
 .burger-menu {
-    display: none; /* Скрыто на десктопе по умолчанию */
+    display: none;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -442,7 +442,7 @@ html {
     visibility: hidden;
 }
 
-/* Когда меню открыто - показываем крестик, скрываем бургер */
+/* Когда меню открыто - показан крестик, скрыт бургер */
 .burger-menu.active .menu-icon {
     opacity: 0;
     visibility: hidden;
@@ -975,7 +975,7 @@ html {
     text-shadow: 0 0 10px var(--ghost-green-1);
 }
 
-/* Стили для индикаторов - Уменьшаем расстояние между колонками */
+/* Стили для индикаторов - Уменьшено расстояние между колонками */
 .indicators {
     display: flex;
     flex-direction: column;
@@ -2259,4 +2259,5 @@ html {
     background-color: rgba(10, 30, 20, 0.7);
     border: 3px solid var(--ghost-smoke-core);
     color: var(--ghost-green-1);
+
 }
