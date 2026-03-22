@@ -560,6 +560,7 @@
         padding: 20px 15px 20px 45px;
         position: relative;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -576,6 +577,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 0 10px var(--ghost-green-1));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -705,7 +707,6 @@
     .program__images {
         width: 46px;
         height: 46px;
-        transform: none !important;
     }
 
     .program__desc {
@@ -813,6 +814,7 @@
         filter: 
             drop-shadow(0 0 20px var(--ghost-green-1))
             drop-shadow(0 0 40px var(--ghost-fog-1));
+        cursor: pointer;
     }
 
     .about__main--images:hover {
@@ -1052,6 +1054,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content__card--title {
@@ -1101,7 +1104,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -1113,7 +1116,7 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content__stories--text {
@@ -1963,7 +1966,7 @@
         top: -150px;
         left: auto;
         right: 0;
-        transform: none !important;
+        cursor: pointer;
         filter: 
         drop-shadow(0 0 15px var(--ghost-green-1))
         drop-shadow(0 0 30px var(--ghost-fog-1));
@@ -2055,6 +2058,7 @@
         padding: 25px 20px 25px 60px;
         position: relative;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -2071,6 +2075,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 0 10px var(--ghost-green-1));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -2192,7 +2197,7 @@
     .program__images {
         width: 60px;
         height: 60px;
-        transform: none !important;
+        cursor: pointer;
         flex-shrink: 0;
     }
 
@@ -2544,6 +2549,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content__card--title {
@@ -2593,7 +2599,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -2605,7 +2611,7 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content__stories--text {
@@ -2892,6 +2898,7 @@
 
     .bx.bxs-ghost {
         font-size: 50px;
+        cursor: pointer;
     }
 
     .bx.bxs-ghost:hover {   
@@ -3201,7 +3208,7 @@
         top: -40px;
         width: 35%;
         z-index: 2;
-        transform: none !important;
+        cursor: pointer;
         filter: 
             drop-shadow(0 0 15px var(--ghost-green-1))
             drop-shadow(0 0 30px var(--ghost-fog-1));
@@ -3288,6 +3295,7 @@
         padding: 20px 15px 20px 50px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__images {
@@ -3299,6 +3307,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 0 10px var(--ghost-green-1));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -3420,7 +3429,7 @@
         width: 55px;
         height: 55px;
         flex-shrink: 0;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .program__desc {
@@ -3736,6 +3745,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content__card--title {
@@ -3785,7 +3795,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -3797,7 +3807,7 @@
     }
 
     .pricing__content__images--gift {
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content__stories--text {
@@ -4075,7 +4085,7 @@
 
     .bx.bxs-ghost {
         font-size: 50px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -4409,6 +4419,7 @@
         padding: 25px 20px 25px 55px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__images {
@@ -4420,6 +4431,7 @@
         transform: translateY(-50%);
         z-index: 2;
         filter: drop-shadow(0 0 10px var(--ghost-green-1));
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -4535,6 +4547,7 @@
         width: 65px;
         height: 65px;
         flex-shrink: 0;
+        cursor: pointer;
     }
 
     .program__desc {
@@ -4673,6 +4686,7 @@
         filter: 
             drop-shadow(0 0 20px var(--ghost-green-1))
             drop-shadow(0 0 40px var(--ghost-fog-1));
+        cursor: pointer;
     }
 
     .about__main--images:hover {
@@ -4856,6 +4870,7 @@
         width: 350px;
         padding: 60px 25px 0 30px;
         position: relative;
+        cursor: pointer;
     }
 
     .pricing__content__card--title {
@@ -4984,6 +4999,7 @@
     .pricing__content__images--gift {
         width: 85px;
         height: 85px;
+        cursor: pointer;
     }
 
     .pricing__content__stories--text {
@@ -5264,6 +5280,7 @@
 
     .bx.bxs-ghost {
         font-size: 58px;
+        cursor: pointer;
     }
 
     .cookie__container--label {

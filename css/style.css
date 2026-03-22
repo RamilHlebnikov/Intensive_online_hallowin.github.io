@@ -877,6 +877,7 @@ html {
 }
 
 .program__content--list {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 23px;
@@ -1062,6 +1063,7 @@ html {
         drop-shadow(0 0 40px var(--ghost-fog-1));
     transition: var(--transition);
     z-index: 1;
+    cursor: pointer;
 }
 
 .about__main--images:hover {
@@ -1267,6 +1269,7 @@ html {
     border-color: var(--toxic-green-1);
     box-shadow: 0 0 10px var(--ghost-green-1), 0 0 20px var(--ghost-fog-2), inset 0 0 35px var(--ghost-fog-1);
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .pricing__content--card:hover {
@@ -2141,9 +2144,9 @@ html {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
     z-index: 9999;
-    pointer-events: none;
     pointer-events: none;
 }
 
