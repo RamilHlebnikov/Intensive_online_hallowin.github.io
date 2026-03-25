@@ -95,7 +95,7 @@
         border-radius: 50% 50% 0 0;
     }
 
-    /* Анимация движения щёточки для мобильных */
+    /* Анимация движения щёточки */
     @keyframes brushMoveMobile {
         0% {
             transform: translateX(-50%) translateY(0) rotate(0deg);
@@ -357,7 +357,7 @@
         position: relative;
     }
 
-    /* Фон для шапки и баннера на мобильных */
+    /* Фон для шапки и баннера */
     .header::before,
     .banner::before {
         content: '';
@@ -923,7 +923,7 @@
         background-color: var(--toxic-green-1) !important;
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
         .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -1586,7 +1586,7 @@
         border-radius: 50% 50% 0 0;
     }
 
-    /* Анимация движения щёточки для планшетов */
+    /* Анимация движения щёточки */
     @keyframes brushMoveTablet {
         0% {
             transform: translateX(-50%) translateY(0) rotate(0deg);
@@ -1665,7 +1665,7 @@
         }
     }
 
-    /* Текст загрузки - ВСЕ НА ОДНОЙ СТРОКЕ */
+    /* Текст загрузки */
     .loading-text {
         position: absolute;
         bottom: -35px;
@@ -2439,7 +2439,7 @@
         background-color: var(--toxic-green-1) !important;
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -4213,7 +4213,7 @@
         position: relative;
     }
 
-    /* Фон для шапки и баннера на мобильных */
+    /* Фон для шапки и баннера */
     .header::before,
     .banner::before {
         content: '';
